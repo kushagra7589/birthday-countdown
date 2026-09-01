@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#17131a">
+  <title>For You ❤️</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="home">
+  <main class="home-shell">
+    <div class="eyebrow">A little something for you</div>
+    <h1>Before your birthday...</h1>
+    <p class="intro">There are a few memories I wanted you to revisit.</p>
+
+    <section id="countdown-grid" class="countdown-grid" aria-label="Birthday countdown"></section>
+
+    <p id="empty-state" class="empty-state hidden">
+      Your next envelope is waiting. ❤️
+    </p>
+
+    <!-- Easter eggs intentionally live in unobtrusive places. -->
+    <footer class="home-footer">
+      <span>made with too much love</span>
+      <button id="secret-button" class="secret-button" aria-label="A secret">✦</button>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
